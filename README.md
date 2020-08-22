@@ -35,6 +35,7 @@ Now hit ```http://signavio-server.com``` in browser and you should see response 
 Now that server is up and running, lets move on to client deployment.
 For deploying client in minikube:
 ```
+cd client
 helm upgrade --install signavioclient signavioclient/ --values signavioclient/values.yaml
 ```
 
